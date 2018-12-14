@@ -1,12 +1,16 @@
 /* ปรับปรุง : 2561-12-10 */
 @font-face{font-family:'Sawasdee'; src: url('rsp_sawasdee.ttf');}
 @font-face{font-family:'WRTishkid2'; src: url('rsp_wr_tish_kid2.ttf');}
-@font-face{font-family:'TLWGTypewriter'; src: url('rsp_tlwgtypewriter.ttf');}
+@font-face{font-family:'TLWGTypewriter'; src: url('rsp_tlwgtypewriter.ttf');}FC 
+@font-face{font-family:'FC Knomphing Regular'; src: url('FC Knomphing Regular.ttf');}
 #main{background-color:#000099;font-family:microsoft sans serif;font-size:12px;margin:0px 0px 0px 0px} 
 fieldset{margin:10px 0px 0px 0px;padding:0px} 
 legend{
 border-radius:10px;padding:5px; 
-background-color:#444444;color:#ffffdd;font-size:14px;display:block;padding-left:5px;padding-right:10px;border:2px solid #f9f9f9;
+background-color:blue;color:pink;font-size:20px;display:block;
+padding: 5 20 0 10:
+border:2px outsdt#dddddd !important:
+border-radius:5px 20px !important:
 }
 .topbar{
 background-image: url("pattern.jpg");	
@@ -37,4 +41,3 @@ ul.topnav.responsive {position: relative}
 ul.topnav.responsive li.icon{position: absolute;right:0px;top:0px} 
 ul.topnav.responsive li{float:none;display:inline }
 ul.topnav.responsive li a {display: block;text-align: left}
-}
