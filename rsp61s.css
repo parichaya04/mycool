@@ -1,0 +1,40 @@
+/* ปรับปรุง : 2561-12-10 */
+@font-face{font-family:'Sawasdee'; src: url('rsp_sawasdee.ttf');}
+@font-face{font-family:'WRTishkid2'; src: url('rsp_wr_tish_kid2.ttf');}
+@font-face{font-family:'TLWGTypewriter'; src: url('rsp_tlwgtypewriter.ttf');}
+#main{background-color:#000099;font-family:microsoft sans serif;font-size:12px;margin:0px 0px 0px 0px} 
+fieldset{margin:10px 0px 0px 0px;padding:0px} 
+legend{
+border-radius:10px;padding:5px; 
+background-color:#444444;color:#ffffdd;font-size:14px;display:block;padding-left:5px;padding-right:10px;border:2px solid #f9f9f9;
+}
+.topbar{
+background-image: url("pattern.jpg");	
+width:100%;font-size:20px;background-color:black;color:white;text-align:center;height:60px;padding:0px;border-spacing:0px;border-style:none
+} 
+.topbar a:link, .topbar a:visited{color:#aaffaa;text-decoration:none} 
+.topbar td {text-align:center} 
+.foot_text{color:yellow;text-decoration:none}
+.m_still{width:728px;background-color:white;margin-left:auto;margin-right:auto;padding:0px;border-spacing:0px} 
+.m_hidden{width:728px;vertical-align:top;margin:0px 0px 0px 0px;margin-left:auto;margin-right:auto;padding:0px;border-spacing:0px} 
+.m_min300{width:300px;float:left}
+.m_min400{width:400px;float:left}
+@media only screen and (max-width:320px) {.m_still {visibility:visible;width:310px} .m_min400, .m_min300{width:300px;} .m_hidden {visibility:hidden;display:none} } 
+@media only screen and (min-width:321px) and (max-width:375px) { .m_still{visibility:visible;width:321px} .m_min400, .m_min300{width:321px;} .m_hidden{visibility:hidden;display:none} } 
+@media only screen and (min-width:376px) and (max-width:414px) { .m_still{visibility:visible;width:376px} .m_min400, .m_min300{width:376px;} .m_hidden{visibility:hidden;display:none} }
+@media only screen and (min-width:414px) and (max-width:728px) { .m_still{visibility:visible;width:414px} .m_min400, .m_min300{width:414px;} .m_hidden{visibility:hidden;display:none} }
+#bar_topnav{width:100%;height:30px;background-color:#000044;margin:0px 0px 0px 0px;padding:0px;border-spacing:0px;border-style:none}
+ul.topnav{list-style-type: none;margin:0px;padding:0px;overflow:hidden;background-image:url(rspbar.png)}
+ul.topnav li{float:left}
+ul.topnav li a {display:inline-block;margin:0px;color:white;text-align:center;padding:5px 5px;text-decoration:none;font-size:10px;height:20px}
+ul.topnav li a:hover {color:yellow;}
+ul.topnav li.icon {display:none}
+@media screen and (max-width:414px){ 
+ul.topnav li:not(:first-child) {display: none} 
+/*  จอที่เล็กกว่า 414 หรือ ไม่เกิน 414 จะแสดงเฉพาะ First-child ที่เหลือหายไป แต่แสดง icon ทางขวามือให้คลิ๊กแทน */
+ul.topnav li.icon{float:right;display:inline-block} 
+ul.topnav.responsive {position: relative} 
+ul.topnav.responsive li.icon{position: absolute;right:0px;top:0px} 
+ul.topnav.responsive li{float:none;display:inline }
+ul.topnav.responsive li a {display: block;text-align: left}
+}
